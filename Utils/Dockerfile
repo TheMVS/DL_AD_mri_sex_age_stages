@@ -9,7 +9,7 @@ RUN apt-get install -y python python-pip
 
 COPY . /main
 
-RUN pip install -r requirements.txt
+RUN pip install -r main/requirements.txt
 
 WORKDIR main/Code 
 
