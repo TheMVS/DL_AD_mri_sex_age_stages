@@ -36,4 +36,4 @@ python Program.py -h
 
 ## Contribuciones
 
-Pull requests, usage, corrections and suggestions are welcome. For major changes, open an issue in the [issues] (https://github.com/TheMVS/DL_AD_mri_sex_age_stages/issues) tab or send an email to a.puentec@udc.es.
+Pull requests, usage, corrections and suggestions are welcome. For major changes, open an issue in the [issues](https://github.com/TheMVS/DL_AD_mri_sex_age_stages/issues) tab or send an email to a.puentec@udc.es.
