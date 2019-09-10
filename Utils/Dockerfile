@@ -5,12 +5,14 @@ USER root
 
 RUN apt-get update
 
-RUN apt-get install -y python python-pip
+RUN apt-get install -y python python-dev python-pip  && pip install opencv-python-headless opencv-contrib-python-headless
 
 COPY . /main
 
 RUN pip install -r main/requirements.txt
 
-WORKDIR main/Code 
+RUN pip --version && \
+    python -c "import cv2 ; print(cv2.__version__)"
 
+WORKDIR main/Code 
 
